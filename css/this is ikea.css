@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding: 0;margin: 0; font-family:"微软雅黑"; }
+a{
+	text-decoration: none;
+}
+.main{
+	width: 1348px;
+	background: #f6f6f6;
+	margin: 0 auto;
+}
+.daohang_back{
+	background: #fff;
+}
+.daohang{
+	height: 65px;
+	width: 960px;
+	margin: 0 auto;
+}
+.logo{
+	position: relative;
+	top:5px;
+	float: left;
+	
+}
+.daohang ul{
+	position: relative;
+	float: right;
+	top: 25px;
+}
+.daohang li{
+	list-style: none;
+	float: left;
+}
+.daohang li a{
+	display: block;
+	margin-left: 34px;
+	font-family:"微软雅黑";
+	font-size: 16px;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	color: #232323;
+	text-align: center;
+}
+.daohang ul span a{
+	color: white;
+	background: #355696;
+}
+.daohang li a:hover{
+	color: #fff;
+	background: #355696;
+}
+.fengexian{
+	height: 4px;
+	background-image:url("../images/line bet.png");
+}
+.banner{
+	width: 1348px;
+	height: 463px;
+}
+.banner img{
+	width: 1348px;
+}
+.mid{
+	background-image: url("../images/ikea_mid_back.png");
+	width: 1032px;
+	height: 2940px;
+	margin: 0 auto;
+	position: relative;
+	top: -160px;
+}
+.mid_info{
+	width: 800px;
+	height: 2840px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+}
+.part_left{
+	width: 333px;
+	height: 245px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.part_right{
+	width: 410px;
+	height: 220px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 65px;
+}
+.part_right p{
+	font-size: 14px;
+	color: #323232;
+	line-height: 24px;
+}
+.part_btn{
+	width: 128px;
+	height: 27px;
+	margin-top: 12px;
+}
+.mid_part{
+	height: 380px;
+	margin-top: 25px;
+}
+.mid_part span{
+	color: #0051ba;
+	font-size: 18px;
+}
+.part1_title{
+	width: 124px;
+	height: 54px;
+	margin: 0 auto;
+}
+.part2_title{
+	width: 125px;
+	height: 57px;
+	margin: 0 auto;
+}
+.part3_title{
+	width: 166px;
+	height: 56px;
+	margin: 0 auto;
+}
+.part4_title{
+	width: 127px;
+	height: 55px;
+	margin: 0 auto;
+}
+.part5_title{
+	width: 256px;
+	height: 54px;
+	margin: 0 auto;
+}
+.part6_title{
+	width: 152px;
+	height: 55px;
+	margin: 0 auto;
+}
+.part7_title{
+	width: 154px;
+	height: 51px;
+	margin: 0 auto;
+}
+.foot{
+	background: #656565;
+	height: 255px;
+	margin-top: -100px;
+}
+.foot_nr{
+	width: 960px;
+	margin: 0px auto;
+}
+.foot_nr a{
+	color: #eeeeee;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 36px;
+}
+.foot_nr a:hover{
+	color: white;
+}
+.foot_nr ul{
+	float: left;
+	margin-left: 54px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.foot_nr li{
+	list-style: none;
+}
+.foot_float{
+	float: left;
+	margin-left: 10px;
+}
+.us li{
+	margin-left: 10px;
+}
+.foot_nr p{
+	height: 16px;
+	width: 960px;
+	text-align: center;
+	color: #eeeeee;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	position: relative;
+}

@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding: 0;margin: 0; font-family:"微软雅黑"; }
+a{
+	text-decoration: none;
+}
+.main{
+	width: 1348px;
+	margin: 0 auto;
+	background: #f6f6f6;
+}
+.daohang_back{
+	background: #fff;
+}
+.daohang{
+	height: 65px;
+	width: 960px;
+	margin: 0 auto;
+}
+.logo{
+	position: relative;
+	top:5px;
+	float: left;
+	
+}
+.daohang ul{
+	position: relative;
+	float: right;
+	top: 25px;
+}
+.daohang li{
+	list-style: none;
+	float: left;
+}
+.daohang li a{
+	display: block;
+	margin-left: 34px;
+	font-family:"微软雅黑";
+	font-size: 16px;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	color: #232323;
+	text-align: center;
+}
+.daohang ul span a{
+	color: white;
+	background: #355696;
+}
+.daohang li a:hover{
+	color: #fff;
+	background: #355696;
+}
+.fengexian{
+	height: 4px;
+	background-image:url("../images/line bet.png")
+}
+.top{
+	width: 1348px;
+	height: 400px;
+	background: #fff;
+}
+.top_info{
+	width: 960px;
+	height: 400px;
+	margin: 0 auto;
+}
+.top_info ul{
+	width: 230px;
+	height: 25px;
+	position: relative;
+	top: 8px;
+	left: 5px;
+}
+.top_info li{
+	list-style: none;
+	float: left;
+	width: 70px;
+	height: 25px;
+	text-align: center;
+}
+.top_info ul span li{
+	background: #355696;
+}
+.top_info ul span a{
+	color: white;
+}
+.second_daohang_space{
+	margin-left: 10px;
+}
+.top_info a{
+	color: #646464;
+	font-size: 12px;
+	line-height: 24px;
+}
+.top_info li:hover{
+	background: #355696;
+}
+.top_info a:hover{
+	color: white;
+}
+.top_line{
+	height: 1px;
+	width: 960px;
+}
+.top_left{
+	position: relative;
+	top: 25px;
+	left: 8px;
+	width: 390px;
+	height: 250px;
+	float: left;
+}
+.top_title{
+	width: 300px;
+	height: 78px;
+}
+.top_title p{
+	color: #7c7c7c;
+	font-size: 48px;
+	margin-top: -5px;
+	font-family: "华文细黑";
+	font-weight: inherit;
+}
+.top_left_text{
+	position: relative;
+	top: 15px;
+	width: 360px;
+	height: 140px;
+	color: #232323;
+	font-size: 14px;
+	line-height: 30px;
+}
+.top_right{
+	width: 458px;
+	height: 300px;
+	float: right;
+	margin-top: 25px;
+}
+.mid{
+	width: 960px;
+	height: 1850px;
+	margin: 25px auto;
+}
+.mid_part1{
+	height: 410px;
+}
+.part1_title{
+	clear: both;
+	margin: 25px auto;
+	width: 123px;
+	height: 31px;
+}
+.part1_back{
+	background-image: url("../images/os_part1_back.png");
+	width: 960px;
+	height: 332px;
+}
+.part1_info{
+	width: 410px;
+	height: 310px;
+	position: relative;
+	left: 510px;
+	top: 20px;
+}
+.part_icon{
+	width: 60px;
+	height: 50px;
+	float: left;
+}
+.part_icon img{
+	width: 60px;
+	height: 50px;
+}
+.part_jj{
+	float: left;
+	width: 340px;	
+	position: relative;
+	left: 10px;
+	top: -5px;	
+	margin-bottom: 5px;
+}
+.part_text{
+	font-size: 14px;
+	color: #323232;
+	line-height: 18px;
+}
+.part_title{
+	font-size: 16px;
+	color: #1B1B1B;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+.mid span a{
+	color: #0051ba;
+	font-size: 14px;
+	margin-right: 50px;
+}
+.part_btn{
+	width: 128px;
+	height: 27px;
+	margin-top: 12px;
+}
+.mid_part2{
+	height: 440px;
+}
+.part2_title{
+	margin: 25px auto;
+	width: 120px;
+	height: 31px;
+}
+.part2_back{
+	background-image: url("../images/os_part2_back.png");
+	width: 960px;
+	height: 358px;
+}
+.part2_info{
+	width: 400px;
+	height: 310px;
+	position: relative;
+	left: 40px;
+	top: 20px;
+}
+.part_text_span{
+	position: relative;
+	top: -9px;
+}
+.mid_part3{
+	height: 410px;
+}
+.part3_title{
+	margin: 25px auto;
+	width: 121px;
+	height: 31px;
+}
+.part3_back{
+	background-image: url("../images/os_part3_back.png");
+	width: 960px;
+	height: 332px;
+}
+.part_text_span2{
+	top: 5px;
+}
+.mid_part4{
+	height: 460px;
+}
+.part4_title{
+	margin: 25px auto;
+	width: 120px;
+	height: 31px;
+}
+.part4_back{
+	background-image: url("../images/os_part4_back.png");
+	width: 960px;
+	height: 426px;
+}
+.part4_info{
+	width: 410px;
+	height: 330px;
+	position: relative;
+	left: 40px;
+	top: 20px;
+}
+.foot{
+	background: #656565;
+	height: 255px;
+}
+.foot_nr{
+	width: 960px;
+	margin: 0px auto;
+}
+.foot_nr a{
+	color: #eeeeee;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 36px;
+}
+.foot_nr a:hover{
+	color: white;
+}
+.foot_nr ul{
+	float: left;
+	margin-left: 54px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.foot_nr li{
+	list-style: none;
+}
+.foot_float{
+	float: left;
+	margin-left: 10px;
+}
+.us li{
+	margin-left: 10px;
+}
+.foot p{
+	width: 960px;
+	text-align: center;
+	margin: 0 auto;
+	color: #eeeeee;
+	font-size: 14px;
+}
